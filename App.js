@@ -16,6 +16,7 @@ export default function App() {
           <DrawerContext color="white" size={30} {...props} />
         )}
         initialRouteName="Main"
+        gestureHandlerProps={false}
       >
         <Drawer.Screen
           name="Main"
