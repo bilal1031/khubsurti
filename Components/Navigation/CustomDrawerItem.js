@@ -6,7 +6,7 @@ import { LinearGradient } from "expo-linear-gradient";
 import { TouchableWithoutFeedback } from "react-native-gesture-handler";
 function CustomDrawerItem(props) {
   const [loaded] = useFonts({
-    Montserrat: require("../assets/fonts/Montserrat-Medium.ttf"),
+    Montserrat: require("../../assets/fonts/Montserrat-Medium.ttf"),
   });
   if (!loaded) {
     return null;

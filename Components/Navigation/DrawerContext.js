@@ -3,7 +3,7 @@ import { View, StyleSheet, Text, Image } from "react-native";
 import { DrawerContentScrollView, DrawerItem } from "@react-navigation/drawer";
 import { useFonts } from "expo-font";
 import CustomDrawerItem from "./CustomDrawerItem";
-import DrawerItemCard from "./Cards/DrawerItemCard";
+import DrawerItemCard from "../Cards/DrawerItemCard";
 function DrawerContext(props) {
   const [isactive, setactive] = useState(1);
   return (
