@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { View, StyleSheet, Text, StatusBar } from "react-native";
 import { createMaterialBottomTabNavigator } from "@react-navigation/material-bottom-tabs";
 import { NavigationContainer } from "@react-navigation/native";
-import Icon from "react-native-vector-icons/MaterialCommunityIcons";
+import { Font } from "../Components/Font";
 import MessageScreen from "./MessageScreen";
 import CallsScreen from "./CallsScreen";
 const Tab = createMaterialBottomTabNavigator();
@@ -27,7 +27,7 @@ function MainScreen({ route, navigation }) {
         shifting={true}
         barStyle={{
           backgroundColor: "#302b63",
-          padding: 8,
+          padding: 7,
           overflow: "hidden",
         }}
       >
@@ -57,8 +57,6 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-
-    // backgroundColor: "dodgerblue",
   },
 });
 export default MainScreen;
