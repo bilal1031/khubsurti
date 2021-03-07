@@ -13,7 +13,7 @@ function DrawerContext(props) {
         <CustomDrawerItem
           color={props.color}
           size={props.size}
-          icon="user"
+          icon="account"
           label="Main"
           onPress={() => {
             props.navigation.navigate("Main", {
@@ -27,7 +27,7 @@ function DrawerContext(props) {
         <CustomDrawerItem
           color={props.color}
           size={props.size}
-          icon="setting"
+          icon="cog"
           label="Setting"
           onPress={() => {
             props.navigation.navigate("Settings", {

@@ -5,7 +5,6 @@ import { NavigationContainer } from "@react-navigation/native";
 import MainScreen from "./Screens/MainScreen";
 import DrawerContext from "./Components/Navigation/DrawerContext";
 import SettingScreen from "./Screens/SettingScreen";
-import { Header } from "react-native/Libraries/NewAppScreen";
 
 const Drawer = createDrawerNavigator();
 

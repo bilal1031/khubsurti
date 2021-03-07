@@ -1,7 +1,7 @@
 import React from "react";
 import { View, StyleSheet, Text } from "react-native";
 import { useFonts } from "expo-font";
-import Icon from "react-native-vector-icons/AntDesign";
+import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 import { LinearGradient } from "expo-linear-gradient";
 import { TouchableWithoutFeedback } from "react-native-gesture-handler";
 function CustomDrawerItem(props) {
@@ -23,7 +23,11 @@ function CustomDrawerItem(props) {
         end={[1, 0]}
       >
         <View style={styles.DrawerItemdiv}>
-          <Icon color={props.color} size={props.size} name={props.icon} />
+          <MaterialCommunityIcons
+            color={props.color}
+            size={props.size}
+            name={props.icon}
+          />
           <Text style={styles.label}>{props.label}</Text>
         </View>
       </LinearGradient>
